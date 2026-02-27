@@ -184,8 +184,6 @@ const enToJaDept = {
     "Otolaryngology (ENT)": "耳鼻咽喉科",
     "Cardiology": "循環器内科",
     "Emergency Care": "救急科",
- 
-    // ⭐ 追加
     "Dermatology": "皮膚科",
     "Urology": "泌尿器科",
     "Gynecology": "婦人科",
@@ -349,4 +347,5 @@ function updateMap(query, center) {
     console.log("Map Language:", language);
    
     mapFrame.src = `https://maps.google.com/maps?q=${encodeURIComponent(fullQuery)}&ll=${center}&z=14&output=embed&hl=${language}`;
+
 }
